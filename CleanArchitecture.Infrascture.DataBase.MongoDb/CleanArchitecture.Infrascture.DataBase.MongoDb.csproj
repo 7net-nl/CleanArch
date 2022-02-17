@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Domain.Contract\CleanArchitecture.Domain.Contract.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Domain.Entities\CleanArchitecture.Domain.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\hmd2lovely\.nuget\packages\mongodb.driver.core\2.12.2\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+</Project>
